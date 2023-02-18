@@ -1,3 +1,18 @@
+<p align="center">
+<a href="https://github.com/furjac/adult-prank">
+    <img src="https://img.shields.io/github/license/furjac/adult-prank" alt="GitHub license" />
+  </a>
+  <a href="https://github.com/furjac/adult-prank/stargazers">
+    <img src="https://img.shields.io/github/stars/furjac/adult-prank" alt="GitHub stars" />
+  </a>
+  <img src="https://img.shields.io/github/downloads/furjac/adult-prank" alt="GitHub all releases" />
+  <a href="https://discord.gg/YN9RKxewsq">
+    <img src="https://img.shields.io/discord/1026098018929360967.svg?label=&logo=discord&logoColor=ffffff&color=5865F2" alt="Join the FG_Teams discord server" />
+  </a>
+  <img src="https://img.shields.io/github/v/release/furjac/adult-prank" alt="GitHub release (latest SemVer)" />
+</p>
+
+
 # adult-prank
 Ok lets talk about this software so first lets what is this
 
