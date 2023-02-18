@@ -9,7 +9,6 @@
   <a href="https://discord.gg/YN9RKxewsq">
     <img src="https://img.shields.io/discord/1026098018929360967.svg?label=&logo=discord&logoColor=ffffff&color=5865F2" alt="Join the FG_Teams discord server" />
   </a>
-  <img src="https://img.shields.io/github/v/release/furjac/adult-prank" alt="GitHub release (latest SemVer)" />
 </p>
 
 
