@@ -24,7 +24,7 @@ ok enough now lets come to the main point
 
 # virus.exe
 
-So the virus.exe has many features and a important notice after running it do not press anything or do anything untill the installation finishes otherwise it will create an error
+So the virus.exe has many features
 
 1. This will download and install the software to prank
 2. This will hide all the files associated to it using a for loop
