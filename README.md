@@ -32,6 +32,7 @@ So the virus.exe has many features
 4. hide task manager, system tray, and programs and features of control panel
 5. all the scripts will be hidden
 6. make sure that everything is working fine
+7. it self destroys and doesnt leave any hint behind
 
 # Antidote.exe
 
