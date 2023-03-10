@@ -36,10 +36,10 @@ ok enough now lets come to the main point
 # installation
 
 1. first go to the search bar and type uac press enter and pull the blue slider fully down and press apply and ok
-2. Next download the virus.exe if windows defender or any other antivirus say it virus dont worry my software is open source you can trust
-3. Run the virus.exe
-4. Restart
-5. Enjoy....
+2. Next download the virus.py if windows defender or any other antivirus say it virus dont worry my software is open source you can trust
+3. Run the virus.py using python
+4. Restart the system
+5. Take fun of the reaction
 
 # uninstall 
 
