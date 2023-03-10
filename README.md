@@ -22,17 +22,12 @@ Ok lets talk about this software so first lets what is this
 
 ok enough now lets come to the main point
 
-# virus.exe
 
-So the virus.exe has many features
 
-1. This will download and install the software to prank
-2. This will hide all the files associated to it using a for loop
-3. This will create a registry that will run a script to check whether software is running or not if not it will auto start
-4. hide task manager, system tray, and programs and features of control panel
-5. all the scripts will be hidden
-6. make sure that everything is working fine
-7. it self destroys and doesnt leave any hint behind
+# Virus.py 
+1. install python and run the code using python
+2. pip install requeusts if not working
+3. thats all if done run the antidote.exe
 
 # Antidote.exe
 
